@@ -1,0 +1,10 @@
+.nav{
+    z-index: 2;
+    background: rgba(0,0,0,0.4) !important;
+}
+.link{
+    border-bottom: 0.1875rem solid #999999;
+}
+.link:hover{
+    border-bottom: 0.1875rem solid maroon;
+}

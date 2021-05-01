@@ -1,0 +1,56 @@
+.header-wraper{
+    position: relative;
+    background: url("../../../Img/background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+.main-info{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-info h1{
+    text-transform: uppercase;
+    color: #A33327;
+}
+
+
+
+.typed-text{
+    font-size: 50px;
+    color: white;
+}
+
+.btn-contact{
+    border: 1px solid maroon;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: white;
+    margin-top: 2rem;
+    z-index: 2;
+}
+.btn-contact:hover{
+    text-decoration: none;
+    cursor:pointer;
+    color: white;
+    background-color: maroon;
+    transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 760px) {
+    .main-info h1{
+        font-size: 1.7rem !important;
+    }
+    .typed-text{
+        font-size: 1.3rem !important;
+    }
+}

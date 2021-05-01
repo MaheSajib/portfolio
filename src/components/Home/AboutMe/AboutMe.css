@@ -1,0 +1,42 @@
+.container{
+    margin-top: 100px;
+}
+.img-section img{
+    height: 450px;
+    width: 100%;
+    border: 5px solid lightgray;
+    border-radius: 2px;
+}
+.details-section h2, h5, p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:maroon
+}
+.about-text{
+    padding: 1rem 0;
+}
+
+.social-icon{
+    font-size: 50px;
+    padding: 6px;
+    color: black;
+}
+.social-icon:hover{
+    color: maroon;
+    transition: 1s;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    color: maroon;
+    border-color: maroon;
+}
+.btn:hover{
+    padding: 1rem 2rem;
+    color: white;
+    background-color: maroon;
+    transition: 1s;
+    
+}

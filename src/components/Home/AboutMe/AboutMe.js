@@ -3,6 +3,7 @@ import './AboutMe.css';
 import me from '../../../Img/me1.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import SkillsSection from './SkillsSection/SkillsSection';
 
 const AboutMe = () => {
     return (
@@ -24,6 +25,17 @@ const AboutMe = () => {
                     <div className="text-center">
                         <button className="btn">Download CV</button>
                     </div>
+                </div>
+            </div>
+            <div className="row mt-5 my-skill">
+                <h2>My Skills</h2>
+                <div className="skills-container">
+                    <SkillsSection skill={'ReactJs'} progress={'80%'} width={'80%'}></SkillsSection>
+                    <SkillsSection skill={'JavaScript'} progress={'85%'} width={'85%'}></SkillsSection>
+                    <SkillsSection skill={'NodeJs'} progress={'80%'} width={'80%'}></SkillsSection>
+                    <SkillsSection skill={'ExpressJs'} progress={'80%'} width={'80%'}></SkillsSection>
+                    <SkillsSection skill={'Firebase'} progress={'90%'} width={'90%'}></SkillsSection>
+                    <SkillsSection skill={'MongoDB'} progress={'80%'} width={'80%'}></SkillsSection>
                 </div>
             </div>
         </div>

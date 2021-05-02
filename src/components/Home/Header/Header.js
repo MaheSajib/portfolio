@@ -44,7 +44,7 @@ const Header = () => {
                     ></Typed>
                 </div>
                 <p className="text-white">Welcome to my Portfolio. I'm a professional web developer. <br /> I love design, development very much.</p>
-                <a href="#" className="btn-contact">Contact Me</a>
+                <a href="#contact" className="btn-contact">Contact Me</a>
             </div>
         </div>
         </div>

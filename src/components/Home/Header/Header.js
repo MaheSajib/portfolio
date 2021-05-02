@@ -6,7 +6,7 @@ import Particles from "react-particles-js";
 
 const Header = () => {
     return (
-        <div>
+        <div id="home">
             <Particles
       className="particles-canvas"
       params={{
@@ -27,8 +27,9 @@ const Header = () => {
           }
         }
       }}></Particles>
-            <HeaderMenu></HeaderMenu>
+            
             <div className="header-wraper">
+            <HeaderMenu></HeaderMenu>
             <div className="main-info">
                 <h1>welcome</h1>
                 

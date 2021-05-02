@@ -4,11 +4,11 @@ import './Blog.css';
 
 const Blog = () => {
     return (
-        <div className="container blog-container text-center">
+        <div id="blogs" className="container blog-container text-center">
             <h1>Blogs </h1>
             <div className="row d-flex justify-content-center mt-5 my=2">
 
-                <Card className="mx-2 my-5" style={{ width: '18rem' }}>
+                <Card className="blog-card mx-2 my-5" style={{ width: '18rem' }}>
                     <Card.Body>
                         <Card.Title>How to Learn JavaScript??</Card.Title>
                         <Card.Text>
@@ -17,7 +17,7 @@ const Blog = () => {
                     </Card.Body>
                 </Card>
 
-                <Card className="mx-3 my-5" style={{ width: '18rem' }}>
+                <Card className="blog-card mx-3 my-5" style={{ width: '18rem' }}>
                     <Card.Body>
                         <Card.Title>How to learn node.js?</Card.Title>
                         <Card.Text>
@@ -26,7 +26,7 @@ const Blog = () => {
                     </Card.Body>
                 </Card>
 
-                <Card className="mx-3 my-5" style={{ width: '18rem' }}>
+                <Card className="blog-card mx-3 my-5" style={{ width: '18rem' }}>
                     <Card.Body>
                         <Card.Title>How to learn React.js?</Card.Title>
                         <Card.Text>

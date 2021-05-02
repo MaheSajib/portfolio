@@ -7,7 +7,7 @@ import SkillsSection from './SkillsSection/SkillsSection';
 
 const AboutMe = () => {
     return (
-        <div className="container">
+        <div id="about" className="container">
             <div className="row">
                 <div className="col-md-6 img-section">
                     <img src={me} alt="" />

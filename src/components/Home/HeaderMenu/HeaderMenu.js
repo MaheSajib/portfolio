@@ -11,11 +11,12 @@ const HeaderMenu = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto p-3">
-                    <Nav.Link className="text-white mx-2 link" href="/">HOME</Nav.Link>
-                    <Nav.Link className="text-white mx-2 link" href="#link">PROJECTS</Nav.Link>
-                    <Nav.Link className="text-white mx-2 link" href="#link">BLOGS</Nav.Link>
-                    <Nav.Link className="text-white mx-2 link" href="#link">ABOUT ME</Nav.Link>
-                    <a href="https://drive.google.com/uc?export=download&id=19HvIMfv47G2Ugf0PgGGJDy0GqaeawKqb" className="btn nav-button mx-2">RESUME</a>
+                    <Nav.Link className="text-white mx-2 link" href="#home">HOME</Nav.Link>
+                    <Nav.Link className="text-white mx-2 link" href="#projects">PROJECTS</Nav.Link>
+                    <Nav.Link className="text-white mx-2 link" href="#blogs">BLOGS</Nav.Link>
+                    <Nav.Link className="text-white mx-2 link" href="#about">ABOUT ME</Nav.Link>
+                    <Nav.Link className="text-white mx-2 link" href="#contact">CONTACT</Nav.Link>
+                    <a href="https://drive.google.com/file/d/19HvIMfv47G2Ugf0PgGGJDy0GqaeawKqb/view?usp=sharing" className="btn nav-button mx-2">RESUME</a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

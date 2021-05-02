@@ -7,7 +7,7 @@ import './HeaderMenu.css';
 const HeaderMenu = () => {
     return (
         <Navbar className="nav transparent"  expand="lg">
-            <Navbar.Brand className="text-white" href="/"><h3><FontAwesomeIcon icon={faProjectDiagram} /></h3></Navbar.Brand>
+            <Navbar.Brand className="text-white" href="/"><h3><FontAwesomeIcon icon={faProjectDiagram} /> MAHE ALAM</h3></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto p-3">

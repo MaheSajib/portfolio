@@ -33,7 +33,7 @@ const Header = () => {
                 <h1>welcome</h1>
                 
                 <div className="m-2">
-                    <span style={{fontSize: "50px", color:"white", marginRight:"5px"}}>I"M</span>
+                    <span style={{fontSize: "50px", color:"white", marginRight:"5px"}}>I'M</span>
                     <Typed
                         className="typed-text"
                         strings={["Md. Mahe Alam","A Full-Stack Developer", "A Web Developer", "A Web Designer"]}

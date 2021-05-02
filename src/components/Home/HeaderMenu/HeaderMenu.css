@@ -8,3 +8,13 @@
 .link:hover{
     border-bottom: 0.1875rem solid maroon;
 }
+
+.nav-button{
+    color: maroon;
+    border-color: maroon;
+}
+.nav-button:hover{
+    color: white;
+    background-color: maroon;
+    transition: 1s;
+}

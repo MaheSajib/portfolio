@@ -1,46 +1,46 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import './MyProjects.css';
-import project from '../../../Img/project.png';
+import quickFix from '../../../Img/quick-fix.png';
+import kiLagbe from '../../../Img/ki-lagbe.png';
+import totoMoto from '../../../Img/toto-moto.png';
 
 const MyProjects = () => {
     return (
-        <div>
+        <div className="container">
             <h1>My Projects</h1>
-            <div className="d-flex justify-content-center mt-5">
-                <Card className="mx-5" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" style={{height:"200px"}} src={project} />
+            <div className="row d-flex justify-content-center mt-5 my=2">
+
+                <Card className="mx-2 my-5" style={{ width: '18rem' }}>
+                    <Card.Img variant="top" style={{ height: "200px" }} src={quickFix} />
                     <Card.Body>
                         <Card.Title>Quick-Fix</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            This project is service related projects. where user can take there service and give review and control by admin.
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <a href="https://quick-fix-client.web.app/" className="btn card-button" >More Details</a>
                     </Card.Body>
                 </Card>
 
-                <Card className="mx-5" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" style={{height:"200px"}} src={project} />
+                <Card className="mx-3 my-5" style={{ width: '18rem' }}>
+                    <Card.Img variant="top" style={{ height: "200px" }} src={kiLagbe} />
                     <Card.Body>
-                        <Card.Title>Quick-Fix</Card.Title>
+                        <Card.Title>Ki Lagbe?</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            This project is ecommerce website where user can search there product add by button on order page.
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <a href="https://ki-lagbe-1.web.app/" className="btn card-button">More Details</a>
                     </Card.Body>
                 </Card>
 
-                <Card className="mx-5" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" style={{height:"200px"}} src={project} />
+                <Card className="mx-3 my-5" style={{ width: '18rem' }}>
+                    <Card.Img variant="top" style={{ height: "200px" }} src={totoMoto} />
                     <Card.Body>
-                        <Card.Title>Quick-Fix</Card.Title>
+                        <Card.Title>TOTO-MOTO BD</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            It's a ride sharing demo website where user can choose there rider and search there destination.
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <a href="https://agitated-yonath-fec688.netlify.app/" className="btn card-button">More Details</a>
                     </Card.Body>
                 </Card>
             </div>

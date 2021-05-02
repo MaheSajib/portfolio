@@ -28,17 +28,16 @@
     transition: 1s;
 }
 
-.btn{
+.download-btn{
     padding: 1rem 2rem;
     color: maroon;
     border-color: maroon;
 }
-.btn:hover{
+.download-btn:hover{
     padding: 1rem 2rem;
     color: white;
     background-color: maroon;
     transition: 1s;
-    
 }
 
 .skills-container{

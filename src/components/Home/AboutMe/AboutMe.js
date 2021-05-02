@@ -23,7 +23,7 @@ const AboutMe = () => {
                         <a href="https://github.com/MaheSajib"><FontAwesomeIcon className="social-icon" icon={faGithub} /></a>
                     </div>
                     <div className="text-center">
-                        <button className="btn">Download CV</button>
+                        <a href="https://drive.google.com/uc?export=download&id=19HvIMfv47G2Ugf0PgGGJDy0GqaeawKqb" className="btn download-btn" download>Download CV</a>
                     </div>
                 </div>
             </div>

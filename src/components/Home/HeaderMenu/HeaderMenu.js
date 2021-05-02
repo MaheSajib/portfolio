@@ -14,8 +14,8 @@ const HeaderMenu = () => {
                     <Nav.Link className="text-white mx-2 link" href="/">HOME</Nav.Link>
                     <Nav.Link className="text-white mx-2 link" href="#link">PROJECTS</Nav.Link>
                     <Nav.Link className="text-white mx-2 link" href="#link">BLOGS</Nav.Link>
-                    <Nav.Link className="text-white mx-2 link" href="#link">RESUME</Nav.Link>
                     <Nav.Link className="text-white mx-2 link" href="#link">ABOUT ME</Nav.Link>
+                    <a href="https://drive.google.com/uc?export=download&id=19HvIMfv47G2Ugf0PgGGJDy0GqaeawKqb" className="btn nav-button mx-2">RESUME</a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

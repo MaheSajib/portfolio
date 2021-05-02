@@ -1,8 +1,8 @@
-.card-button{
+.submit-massage{
     color: maroon;
     border-color: maroon;
 }
-.card-button:hover{
+.submit-massage:hover{
     color: white;
     background-color: maroon;
     transition: 1s;

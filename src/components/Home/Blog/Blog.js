@@ -5,14 +5,14 @@ import './Blog.css';
 const Blog = () => {
     return (
         <div id="blogs" className="container blog-container text-center">
-            <h1>Blogs </h1>
+            <h1 >Blogs </h1>
             <div className="row d-flex justify-content-center mt-5 my=2">
 
                 <Card className="blog-card mx-2 my-5" style={{ width: '18rem' }}>
                     <Card.Body>
                         <Card.Title>How to Learn JavaScript??</Card.Title>
                         <Card.Text>
-                            With two decades of improvement, JavaScript has become one of the most popular programming languages of all time. <a href="https://digitalmarketingtips12.blogspot.com/2021/05/how-to-learn-javascript.html">Learn More</a>
+                            With two decades of improvement, JavaScript has become one of the most popular programming languages of all <a href="https://digitalmarketingtips12.blogspot.com/2021/05/how-to-learn-javascript.html">Learn More</a>
                         </Card.Text>
                     </Card.Body>
                 </Card>

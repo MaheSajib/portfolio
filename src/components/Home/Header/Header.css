@@ -53,4 +53,11 @@
     .typed-text{
         font-size: 1.3rem !important;
     }
+    .navbar-toggler{
+        background-color: aliceblue;
+    }
+    .navbar-nav a{
+        background-color: #150102;
+        text-align: center;
+    }
 }

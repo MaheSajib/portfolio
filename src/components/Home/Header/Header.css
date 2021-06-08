@@ -3,7 +3,7 @@
     background: url("../../../Img/background.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    height: 95vh;
+    height: 100vh;
 }
 .main-info{
     display: flex;

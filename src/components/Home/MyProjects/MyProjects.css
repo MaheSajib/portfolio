@@ -5,7 +5,8 @@
 .project-card:hover{
     background-color: maroon;
     color: white;
-    transition: 1s;
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
     box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project-card:hover .card-button{
